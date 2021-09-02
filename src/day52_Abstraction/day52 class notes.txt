@@ -153,18 +153,39 @@ CarTask:
 
 
 
+------------------------------------------------------------------------------------
+
+Interface JavaScriptExceuter{
+	excuterScript()
+
+}
+
+interface TakeScreenSHot{
+	takeScreenShot()
+}
+
+interface WebDriver{
+	get(url);
+	navigate...
+}
+
+Remotedriver implements WebDriver, TakeScreenShot, JavaScreiptExecuter
+
+
+ChromeDriver extends Remotedriver
+
+FireFoxDriver extends Remotedriver
+
+OperaDriver extends Remotedriver
 
 
 
+ChromeDriver driver1 = new ChromeDriver();
+			driver.get(url)
 
 
-
-
-
-
-
-
-
+FireFoxDriver driver2 = new FireFoxDriverr();
+			driver2.get(url)
 
 
 

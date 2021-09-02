@@ -4,4 +4,6 @@ public interface Wild {
 
     void hunt();  // public abstract by default
 
+
+
 }

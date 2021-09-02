@@ -24,6 +24,11 @@ public class Dog extends Animal implements Playable, Swimmable{
     }
 
     @Override
+    public void pet() {
+
+    }
+
+    @Override
     public void swim() {
 
     }

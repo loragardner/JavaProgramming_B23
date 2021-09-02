@@ -22,6 +22,11 @@ public class Dolphin extends Animal implements Wild, Playable, Swimmable{
     }
 
     @Override
+    public void pet() {
+
+    }
+
+    @Override
     public void swim() {
 
     }

@@ -21,4 +21,9 @@ public class Cat extends Animal implements Playable{
     public void play() {
 
     }
+
+    @Override
+    public void pet() {
+
+    }
 }

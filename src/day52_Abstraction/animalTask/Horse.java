@@ -20,4 +20,9 @@ public class Horse extends Animal implements Playable{
     public void play() {
 
     }
+
+    @Override
+    public void pet() {
+
+    }
 }

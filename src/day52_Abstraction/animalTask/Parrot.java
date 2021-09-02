@@ -25,4 +25,9 @@ public class Parrot extends Animal implements Flyable, Playable{
     public void play() {
 
     }
+
+    @Override
+    public void pet() {
+
+    }
 }

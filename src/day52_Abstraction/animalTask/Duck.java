@@ -29,6 +29,11 @@ public class Duck extends Animal implements Swimmable, Flyable, Playable {
     }
 
     @Override
+    public void pet() {
+
+    }
+
+    @Override
     public void swim() {
 
     }

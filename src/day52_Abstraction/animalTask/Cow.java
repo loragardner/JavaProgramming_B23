@@ -1,6 +1,6 @@
 package day52_Abstraction.animalTask;
 
-public  class Cow extends Animal implements  Playable {
+public  class Cow extends Animal implements  Playable, Swimmable{
 
 
     @Override
@@ -20,6 +20,11 @@ public  class Cow extends Animal implements  Playable {
 
     @Override
     public void play() {
+
+    }
+
+    @Override
+    public void swim() {
 
     }
 }

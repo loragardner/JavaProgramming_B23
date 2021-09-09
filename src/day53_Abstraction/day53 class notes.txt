@@ -127,10 +127,19 @@ Abstract class vs Interface: both are used for achieving abstraction
 
 
 Polymorphism: "IS A relation" is a MUST
+
+			reference type decides what can be called
+			object type decides which implementation to execute
+
+
 		polymorphism
 		reference type vs object type
-		instance keyword
+		instanceOf keyword
 		up & down casting
+
+
+
+
 
 
 

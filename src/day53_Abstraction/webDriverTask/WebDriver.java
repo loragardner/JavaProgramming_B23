@@ -18,6 +18,7 @@ public interface WebDriver {
      void findElement(String locator);
      void getTitle();
      void quit();
+     void close();
 
      /*
     public static void main(String[] args) {
@@ -40,4 +41,9 @@ WebDriver task:
 					findElement(String locator);
 					getTitle();
 					quit();
+
+
+RemoteDriver
+
+
  */

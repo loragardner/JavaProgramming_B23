@@ -1,0 +1,81 @@
+09/09/2021
+Topics: Abstraction Continue
+			Interface vs Abstract class
+			extends vs implements
+
+		OOP Polymorphism Intro
+
+
+package name: day53_Abstraction
+
+warmup task:
+
+	WebDriver task:
+		1. Create an interface named WebDriver
+				abstract methods:
+					get(String url);
+					findElement(String locator);
+					getTitle();
+					quit();
+
+		2. Create the following classes that implements the WebDriver
+					1. ChromeDriver
+					2. FireFoxDriver
+					3. EdgeDriver
+
+			Implement all the methods that are required
+
+
+	Car Task
+		1. create an abstract class named Car
+				private variables:
+					make (final), model (final), color, year (final), price
+
+				Encapsulate all the fields
+
+				Add a constructor to set all the fields
+
+				abstract method:
+					start();
+					driver();
+
+				non-abstract method:
+					toString
+
+		2. Create an interface named ElectricCar
+				abstract method: charging();
+
+		3. create an interface named AutoPark
+				abstract method: autoPark();
+
+		4. Create an interface named AutoPilot that extends AutoPark
+				abstract method: selfDriving();
+
+		5. Create the following sub classes of Car
+				1. Honda
+				2. Ford
+				3. Porsche (implements AuotoPark)
+				4. Audi (implements AuotoPark)
+				5. Tesla (implements AuotoPark & AutoPilot)
+				6. Nio (implements AuotoPark & AutoPilot)
+
+
+			implement all the methods that are needed
+
+
+
+Interface (not a class):
+
+		public is the only available AM
+
+		
+
+
+
+
+
+
+
+
+
+

@@ -68,7 +68,6 @@ public class AutomationTesting {
                 throw new RuntimeException("Invalid Browser name");
         }
 
-
     }
 
 

@@ -2,7 +2,7 @@ package day53_Abstraction.carTask;
 
 public abstract class Car {
 
-    private final String make;
+    protected final String make;
     private final  String model;
     private String color;
     private final int year;

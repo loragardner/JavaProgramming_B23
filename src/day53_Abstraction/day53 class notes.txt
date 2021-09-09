@@ -3,7 +3,7 @@ Topics: Abstraction Continue
 			Interface vs Abstract class
 			extends vs implements
 
-		Polymorphism Intro
+		OOP Polymorphism Intro
 
 
 package name: day53_Abstraction
@@ -61,3 +61,21 @@ warmup task:
 
 
 			implement all the methods that are needed
+
+
+
+Interface (not a class):
+
+		public is the only available AM
+
+		
+
+
+
+
+
+
+
+
+
+

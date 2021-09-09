@@ -2,6 +2,8 @@ package day53_Abstraction.webDriverTask;
 
 public interface WebDriver {
 
+
+
     /*
     methods that we cannot have:
     void method2(){

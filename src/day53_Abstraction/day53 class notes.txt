@@ -87,6 +87,22 @@ Interface (not a class):
 
 
 
+extends vs implements
+	
+	extends:
+			class  extends class    (extends one class only)
+			interface extends interfaces   (extends multiple interface)
+
+	implements:
+
+			class  implements  interfaces
+
+
+	extends & implements:
+			class extends class implments interfaces
+
+
+
 
 
 

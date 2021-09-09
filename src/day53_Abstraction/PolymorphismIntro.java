@@ -6,7 +6,8 @@ import day51_Abstraction.shapeTask.Circle;
 import day51_Abstraction.shapeTask.Rectangle;
 import day51_Abstraction.shapeTask.Shape;
 import day51_Abstraction.shapeTask.Square;
-import day53_Abstraction.carTask.Honda;
+import day53_Abstraction.webDriverTask.ChromeDriver;
+import day53_Abstraction.webDriverTask.WebDriver;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -68,6 +69,33 @@ public class PolymorphismIntro {
         int numberOfSquares = 0,
             numberOfRectangles = 0,
             numberOfCircles = 0;
+
+
+        for (Shape each : shapes) {
+            if(each instanceof Rectangle){
+                numberOfRectangles++;
+            }else if(each instanceof Square ){
+                numberOfSquares++;
+            }else{
+                numberOfCircles++;
+            }
+        }
+
+
+        System.out.println("numberOfSquares = " + numberOfSquares);
+        System.out.println("numberOfRectangles = " + numberOfRectangles);
+        System.out.println("numberOfCircles = " + numberOfCircles);
+
+        System.out.println("---------------------------------------------");
+
+        WebDriver driver = new ChromeDriver();
+
+        if(driver instanceof ChromeDriver){
+            System.out.println("Maximize Window");
+        }else{
+            System.out.println("Minimize Window");
+        }
+
 
 
 

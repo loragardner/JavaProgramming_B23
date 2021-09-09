@@ -8,7 +8,7 @@ public class EdgeDriver implements WebDriver {
 
     @Override
     public void findElement(String locator) {
-        System.out.println("ChromeDriver - locating the element by "+locator);
+        System.out.println("EdgeDriver - locating the element by "+locator);
     }
 
     @Override

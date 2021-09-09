@@ -65,6 +65,13 @@ public class PolymorphismIntro {
                 new Square(15)
         ));
 
+        int numberOfSquares = 0,
+            numberOfRectangles = 0,
+            numberOfCircles = 0;
+
+
+
+
 
 
 

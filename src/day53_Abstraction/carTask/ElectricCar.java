@@ -19,16 +19,13 @@ class A{
 
 public interface  ElectricCar {
 
- //   public final static int a = 100;
+
     boolean hasBattery = true; // public static final by default
-
-    public static void main(String[] args) {
-        System.out.println(hasBattery);
-    }
-
 
     void charging();
 
+
+    // 1 abstract method
 
     /*
     what we cannnot have:

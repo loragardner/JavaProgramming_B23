@@ -7,5 +7,7 @@ public interface AutoPark {
 
    void autoPark();
 
+   // 1 abstract
+
 
 }

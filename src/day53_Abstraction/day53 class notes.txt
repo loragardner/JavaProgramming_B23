@@ -38,7 +38,7 @@ warmup task:
 				abstract method:
 					start();
 					driver();
-					
+
 
 				non-abstract method:
 					toString
@@ -69,8 +69,20 @@ Interface (not a class):
 
 		public is the only available AM
 
+		variables are public static and final by default
 
 
+		what we can have in an interface:
+			variable: public static final by defult
+			methods: abstract method
+					 static method
+					 default method
+
+		what we cannot have:
+			instance variables
+			blocks
+			constructor
+			instance method
 
 
 
